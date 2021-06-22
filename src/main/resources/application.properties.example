@@ -2,7 +2,7 @@
 # this line makes hibernate auto setup our tables if they don't currently exist
 spring.jpa.hibernate.ddl-auto=update
 
-# this shows the sql logs in the Eclipse console--formatted.
+# this shows the SQL logs in the Eclipse console--formatted.
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
