@@ -15,7 +15,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
-/**Handles the creation of API documentation using Swagger.
+/** Handles the creation of API documentation using Swagger.
  * <p>
  * To access this documentation, <br>
  * HTTP GET Request: <a href="http://localhost:8080/v2/api-docs">http://localhost:8080/v2/api-docs</a><br>
@@ -25,6 +25,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @version	1.0
  * @since	2020-06-22
  */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {

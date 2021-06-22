@@ -10,12 +10,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-/**Handles the security of the API.
+/** Handles the security of the API.
  * <p>
  * @author	Alexandré Northouse
  * @version	1.0
  * @since	2020-06-22
  */
+
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
