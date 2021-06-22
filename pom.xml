@@ -27,6 +27,14 @@
 		</dependency>
 		
 		
+		<!-- MySQL Connection -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
+		
 		<!-- RESTful Services -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -34,18 +42,12 @@
 		</dependency>
 
 
-		<!-- H2 Database (in memory) -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-
 		<!-- Spring Security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		
 		
 		<!-- Swagger -->
 		<dependency>
@@ -54,12 +56,14 @@
 			<version>2.9.2</version>
 		</dependency>
 		
+		
 		<!-- Swagger UI -->
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-swagger-ui</artifactId>
 		    <version>2.9.2</version>
 		</dependency>
+		
 		
 		<!-- Testing -->
 		<dependency>
