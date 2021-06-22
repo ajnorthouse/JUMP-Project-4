@@ -63,3 +63,8 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+# Spring Boot Credentials
+/config/*
+!/config/README.md
+!/config/*.example

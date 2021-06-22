@@ -1,0 +1,23 @@
+# --- SQL Criteria ---
+# this line makes hibernate auto setup our tables if they don't currently exist
+spring.jpa.hibernate.ddl-auto=update
+
+# this shows the sql logs in the Eclipse console--formatted.
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+
+# --- Spring Security Criteria ---
+spring.security.user.name=[username]
+spring.security.user.password=[password]
+
+
+# --- Mac & Linux ---
+#spring.datasource.url=[jdbc:mysql://localhost:3306/database_name?serverTimezone=EST]
+#spring.datasource.username=[root]
+#spring.datasource.password=[Root@123]
+
+# --- Windows ---
+#spring.datasource.url=[jdbc:mysql://localhost:3306/database_name]
+#spring.datasource.username=[root]
+#spring.datasource.password=[root]
